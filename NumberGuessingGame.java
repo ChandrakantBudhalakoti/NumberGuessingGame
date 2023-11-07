@@ -7,7 +7,7 @@ public class NumberGuessingGame {
         Random random = new Random();
 
         do {
-            int minRange = 1;  // Set your desired minimum range
+            int minRange = 1;  // Set your desired minimum rangeS
             int maxRange = 100;  // Set your desired maximum range
             int secretNumber = random.nextInt(maxRange - minRange + 1) + minRange;
             int maxAttempts = 5;  // Set the number of attempts allowed
@@ -38,7 +38,7 @@ public class NumberGuessingGame {
             System.out.print("Do you want to play again? (yes/no): ");
             String playAgain = scanner.next();
             if (!playAgain.equalsIgnoreCase("yes")) {
-                System.out.println("Thank you for playing. Goodbye!");
+                System.out.println("Thank you for playing. Goodbye! <3");
                 break;
             }
         } while (true);
